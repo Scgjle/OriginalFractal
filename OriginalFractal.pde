@@ -22,8 +22,8 @@ public void myFractal(int x, int y, int siz) {
   stroke(204,102,0);
   fill(0);
   pushMatrix();
-  translate(x,y);
-  rotate(HALF_PI*siz);
+  //translate(x,y);
+  //rotate(HALF_PI*siz);
   square(x, y, siz);
   popMatrix();
 
@@ -34,3 +34,4 @@ public void myFractal(int x, int y, int siz) {
     myFractal(x + siz/2, y - siz/2, siz/2);
   }
 }
+
